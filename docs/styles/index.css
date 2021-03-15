@@ -1,0 +1,84 @@
+.jumbotron {
+    background-image: url("../images/banner_csgo.jpg");
+    background-size: cover;
+    margin-bottom: 0px;
+    height: 500px;
+    position: relative;
+}
+
+.jumbotron p {
+    margin-bottom: 10px;
+    color: #dcdcdc;
+}
+
+#download {
+    background-color: transparent;
+    margin-top: 220px;
+    margin-left: 67px;
+}
+
+#download p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+#download button {
+    background-color: rgba(24,39,51);
+    border-color: #dcdcdc;
+    color: #dcdcdc;
+}
+
+#download button:hover {
+    background-color: rgba(28,69,98);
+}
+
+#logo img {
+    display: none;
+}
+
+article section {
+    padding: 0px 15px 30px 15px;
+    border-bottom: 2px solid #ffffff;
+}
+
+article h3 {
+    padding-top: 30px;
+}
+
+#overview a {
+    color: #4682B4;
+}
+
+#overview a:hover {
+    color: #87CEFA;
+}
+
+#achievements {
+    border-bottom: none;
+}
+
+@media screen and (max-width: 576px) {
+    .jumbotron {
+        background-image: url("../images/banner_csgo_mobile.jpg");
+    }
+
+    #download {
+        display: none;
+    }
+
+    #download {
+        text-align: center;
+        margin-top: 380px;
+        margin-left: 12px;
+    }
+
+    #logo img {
+        display: block;
+        margin: auto;
+        margin-top: 375px;
+    }
+
+    h3, h5 {
+        text-align: center;
+    }
+}

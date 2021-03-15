@@ -1,0 +1,104 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("../images/bg_csgo.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: rgba(22,22,22,0.9);
+    color: #dcdcdc;
+    max-width: 960px;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+p {
+    margin-bottom: 0px;
+    color: #bababa;
+    font-size: 16px;
+}
+
+/* Navigation CSS */
+#nav-container {
+    background-color: rgba(24,39,51,.9);
+}
+
+nav.navbar .navbar-nav li {
+    padding: 7px 7px 0px 7px;
+}
+
+nav.navbar .navbar-brand {
+    padding-top: 0px;
+}
+
+/* Footer CSS */
+#footer {
+    border-top: 1px solid #ffffff;
+    background-color: transparent;
+}
+
+#footer img {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#footer .row {
+    margin: auto;
+    padding-left: 156px;
+    padding-right: 160px;
+}
+
+#footer p {
+    text-align: center;
+    font-size: xx-small;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+/* Scroll to Top button */
+#scrollTop {
+    display: none; /* Hidden by default */
+    position: fixed; 
+    bottom: 20px; /* Button position from bottom */
+    right: 350px; /* Button posiion from right */
+    z-index: 99; /* Ensures it does not overlap */
+    cursor: pointer; 
+    padding: 12px; 
+    border-radius: 10px; 
+    font-size: 16px;
+    opacity: .9;
+}
+
+@media screen and (max-width: 1200px) {
+    #scrollTop {
+        right: 10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    nav.navbar .navbar-nav li {
+        padding: 10px 0px 0px 0px;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    #footer .row {
+        padding: 0px;
+    }
+
+    #footer p {
+        padding: 0px;
+    }
+}

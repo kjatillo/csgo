@@ -1,0 +1,230 @@
+article {
+    padding: 0px 15px 30px 15px;
+    
+}
+
+h3 {
+    padding-top: 30px;
+}
+
+section {
+    border-bottom: 2px solid #dcdcdc;
+    padding-bottom: 20px; 
+}
+
+#heavy {
+    border-style: none;
+}
+
+#other-equip {
+    border-style: none;
+}
+
+#vertigo {
+    border-style: none;
+}
+
+#content h3 {
+    padding-left: 15px;   
+}
+
+#maps .map-info-text {
+    padding-left: 15px;
+}
+
+.card {
+    padding-top: 20px;
+}
+
+img.c4 {
+    height: 52%;
+    width: 52%;
+}
+
+#maps .card-text {
+    text-align: center;
+}
+
+.map-title-mobile {
+    display: none;
+}
+
+#maps #content .col-sm-4 {
+    padding-right: 0px;
+}
+
+#maps #content .col-sm-8 {
+    padding-right: 30px;
+}
+
+/* Content Box */
+#content-box {
+    margin: 40px 0px 20px 0px;
+    padding: 0px 30px
+}
+
+#content-box div {
+    padding: 15px 15px 0px 15px;
+    border: 1px solid #dcdcdc;
+}
+
+#content-box p {
+    font-size: 18px;
+    padding-bottom: 10px;
+    color: #dcdcdc;
+    text-align: left;
+}
+
+#content-box h5 {
+    padding: 10px 0px;
+}
+
+#content-box ul li {
+    padding: 8px 0px;
+}
+
+#content-box ul li a {
+    color: #4682B4;
+}
+
+#content-box ul li a:hover {
+    text-decoration: underline;
+    color: #87CEFA;
+}
+
+/* Cards */
+.card {
+    border: 2px solid #dcdcdc;
+    background-color: transparent;
+    color: #dcdcdc;
+    margin: 20px 0px;
+}
+
+#maps .card {
+    padding: 0px;
+    margin-top: 35px;
+}
+
+#grenade .card-img-top {
+    height: 80%;
+    width: 80%;
+}
+
+.card-img-top {
+    align-self: center;
+    height: 70%;
+    width: 70%;
+}
+
+#gear .card-img-top {
+    height: 80%;
+    width: 80%;
+}
+
+#maps .card-img-top {
+    height: 100%;
+    width: 100%;
+}
+
+#maps .card-body {
+    padding: 0px 0px 20px 0px;
+}
+
+.card-title {
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(24,39,51,.9);
+}
+
+.card-text {
+    font-size: .95em;
+}
+
+#maps .card-text {
+    padding: 0px 20px;
+}
+
+.card-body p {
+    margin-bottom: 15px;
+}
+
+.modal-content {
+    background-color: rgba(22, 22, 22);
+}
+
+.modal {
+    color: #e8e6e3;
+}
+
+.modal-content {
+    border: 1px solid rgb(56, 61, 63);
+}
+
+.modal button {
+    color: #dcdcdc;
+}
+
+.modal button:hover {
+    color: rgb(232, 230, 227);
+}
+
+.modal-header {
+    border-bottom-color: rgb(56, 61, 63);
+}
+
+.modal h5 {
+    margin-bottom: 0px;
+}
+
+.modal-footer {
+    border-top-color: rgb(56, 61, 63);
+}
+
+@media screen and (max-width: 576px) {
+    h3 {
+        text-align: center;
+    }
+
+    .modal-content, .modal-content p {
+        text-align: left;
+    }
+
+    #content-box {
+        margin-top: 20px;
+        margin-bottom: 0px;
+        padding-bottom: 20px;
+    }
+
+    #content section {
+        padding-bottom: 45px;
+    }
+
+    #content h3 {
+        margin-bottom: 0px;
+    }
+
+    .map-title-desktop {
+        display: none;
+    }
+
+    #maps .map-title-mobile {
+        display: block;
+        padding-left: 0px;
+        margin-bottom: 0px;
+    }
+
+    #maps #content .col-sm-4 {
+        padding-right: 15px;
+    }
+
+    #maps .card {
+        margin-top: 30px;
+    }
+
+    .card {
+        width: 310px;
+        margin: auto;
+        margin-top: 30px;
+        text-align: center;
+    }
+}

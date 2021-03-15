@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>Counter-Strike: Global Offensive » Equipment</title>
+
+        <meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <!-- Global External CSS -->
+        <link rel="stylesheet" href="styles/global.css">
+
+        <!-- Equipment External CSS -->
+        <link rel="stylesheet" href="styles/weap_equip_map.css">
+    </head>
+
+    <body>
+        <!-- Navbar Start -->
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-sm navbar-dark">
+
+                <!-- Logo/Brand -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/brand_csgo_white.png" alt="Counter-Strike global offensive logo white">
+                </a>
+
+                <!-- Toggler/Collapsible Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <!-- Links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="weapons.html">Weapons</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="equipment.html">Equipment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="maps.html">Maps</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Main Container Start -->
+        <div class="container" id="equipment">
+            <section id="equipment-intro">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <article>
+                            <h3>Equipment</h3><br>
+            
+                            <p>There are a total of 11 equipment available in <i>Counter-Strike: Global Offensive</i> competitive matchmaking. These include grenades, gears and a C4 explosive which is an objective equipment used in bomb diffusal scenario exclusive only to the Terrorist force.</p>
+                        </article>
+                    </div>
+
+                    <div class="col-sm-4" id="content-box">
+                        <div>
+                            <p>Contents</p>
+                            <ul>
+                                <li><a href="#grenade">Grenade</a></li>
+                                <li><a href="#gear">Gear</a></li>
+                                <li><a href="#other-equip">Other Equipment</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div id="content">
+                <!-- Grenade Start -->
+                <section id="grenade">
+                    <h3>Grenades</h3>
+                    
+                    <!-- Grenade Row 1-->
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="card" style="width: 290px">
+                                <img class="card-img-top" src="images/grenade_decoy.png" alt="decoy grenade">
+                                <div class="card-body">
+                                    <h5 class="card-title">Decoy Grenade</h5>
+
+                                    <p class="card-text">
+                                        <b>Price: </b>$50<br>
+                                        <b>Firing Mode: </b>Thrown<br>
+                                        <b>Used by: </b>Terrorist / Counter-Terrorist<br>
+                                        <b>Kill Reward: </b>$300 (Competitive)
+                                    </p>
+
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#decoy">More Info</button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="decoy">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                    
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Decoy Grenade</h4>
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+                                    
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <h5>Official Description</h5><br>
+                                                
+                                                <p>When thrown, the decoy grenade emulates the sound of the most powerful weapon you are carrying, creating the illusion of additional supporting forces.</p><br>
+
+                                                <h5>Additional Information</h5><br>
+
+                                                <p>The <b>Decoy Grenade</b> is a new grenade to the <i>Counter-Strike</i> series featured in <i>Counter-Strike: Global Offensive</i>. Very cheap and useful, the decoy is meant to confuse and misdirect. Sparingly used, decoys can be effective in confusing enemy players long enough to get them killed. Decoy's are very easy to pick out due to the repetitive nature of their weapon's fire sound effects, so don't expect a lot of use out of a decoy that has been active longer than a few seconds.</i>.</p>
+                                            </div>
+                                    
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                                            </div>
+                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-4">
+                            <div class="card" style="width: 290px">
+                                <img class="card-img-top" src="images/grenade_flashbang.png" alt="flashbang grenade">
+                                <div class="card-body">
+                                    <h5 class="card-title">Flashbang Grenade</h5>
+
+                                    <p class="card-text">
+                                        <b>Price: </b>$200<br>
+                                        <b>Firing Mode: </b>Thrown<br>
+                                        <b>Used by: </b>Terrorist / Counter-Terrorist<br>
+                                        <b>Kill Reward: </b>$300 (Competitive)
+                                    </p>
+
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#flashbang">More Info</button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="flashbang">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                    
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Flashbang Grenade</h4>
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+                                    
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <h5>Official Description</h5><br>
+                                                
+                                                <p>The non-lethal flashbang grenade temporarily blinds anybody within its concussive blast, making it perfect for flushing out closed-in areas. Its loud explosion also temporarily masks the sound of footsteps.</p><br>
+
+                                                <h5>Additional Information</h5><br>
+
+                                                <p>The <b>Flashbang</b> is a grenade that deals no damage but blinds any player that sees it when it explodes. The length and severity of the effect depends on the players viewpoint and model orientation. If a grenade ignites behind you, the effect will be minimal. A flashbang going off in your direct field of view, however, will leave you completely blind for a very long time. The flashbang is a difficult grenade to use effectively but plays a crucial role in securing and defending angles and bombsites.</p>
+                                            </div>
+                                    
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                                            </div>
+                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="card" style="width: 290px">
+                                <img class="card-img-top" src="images/grenade_he.png" alt="high explosive grenade">
+                                <div class="card-body">
+                                    <h5 class="card-title">High Explosive Grenade</h5>
+
+                                    <p class="card-text">
+                                        <b>Price: </b>$300<br>
+                                        <b>Firing Mode: </b>Thrown<br>
+                                        <b>Used by: </b>Terrorist / Counter-Terrorist<br>
+                                        <b>Kill Reward: </b>$300 (Competitive)
+                                    </p>
+
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#he_grenade">More Info</button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="he_grenade">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                    
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">High Explosive Grenade</h4>
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+                                    
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <h5>Official Description</h5><br>
+                                                
+                                                <p>The high explosive fragmentation grenade administers high damage through a wide area, making it ideal for clearing out hostile rooms.</i></p><br>
+
+                                                <h5>Additional Information</h5><br>
+
+                                                <p>The <b>High Explosive Grenade</b> damages enemies in its blast radius. Although an HE nade can't kill an enemy with 100HP, it chews up unarmored targets and enemies unlucky enough to be very near the blast. This type of nade is very effective at finishing off wounded players around the corner, in tight-knit areas such as hallways, and in rounds where the enemy is lacking armor. It also significantly slows enemies caught in its blast radius, which can make it a good choice before peeking a corner.</p>
+                                            </div>
+                                    
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                                            </div>
+                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Grenade Row 2 -->
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="card" style="width: 290px">
+                                <img class="card-img-top" src="images/grenade_incendiary.png" alt="incendiary grenade">
+                                <div class="card-body">
+                                    <h5 class="card-title">Incendiary Grenade</h5>
+
+                                    <p class="card-text">
+                                        <b>Price: </b>$600<br>
+                                        <b>Firing Mode: </b>Thrown<br>
+                                        <b>Used by: </b>Terrorist / Counter-Terrorist<br>
+                                        <b>Kill Reward: </b>$300 (Competitive)
+                                    </p>
+
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#incendiary">More Info</button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="incendiary">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                    
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Incendiary Grenade</h4>
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+                                    
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <h5>Official Description</h5><br>
+                                                
+                                                <p>When thrown, the incendiary grenade releases a high-temperature chemical reaction capable of burning anyone within its wide blast radius.</p><br>
+
+                                                <h5>Additional Information</h5><br>
+
+                                                <p>The <b>Incendiary Grenade</b> is a new grenade to the <i>Counter-Strike</i> series featured in <i>Counter-Strike: Global Offensive</i>. When it makes contact, this rather expensive item covers a large area with a rapidly-spreading fire. Enemies attempting to pass through will be slowed and take significant burn damage. This nade is extremely effective at stopping early rushes, but can be countered by a Smoke Grenade, which will dissipate the flames.</i>.</p>
+                                            </div>
+                                    
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                                            </div>
+                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-4">
+                            <div class="card" style="width: 290px">
+                                <img class="card-img-top" src="images/grenade_molotov.png" alt="molotov grenade">
+                                <div class="card-body">
+                                    <h5 class="card-title">Molotov Grenade</h5>
+
+                                    <p class="card-text">
+                                        <b>Price: </b>$400<br>
+                                        <b>Firing Mode: </b>Thrown<br>
+                                        <b>Used by: </b>Terrorist / Counter-Terrorist<br>
+                                        <b>Kill Reward: </b>$300 (Competitive)
+                                    </p>
+
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#molotov">More Info</button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="molotov">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                    
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Molotov Grenade</h4>
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+                                    
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <h5>Official Description</h5><br>
+                                                
+                                                <p>The Molotov is a powerful and unpredictable area denial weapon that bursts into flames when thrown on the ground, injuring any player in its radius.</p><br>
+
+                                                <h5>Additional Information</h5><br>
+
+                                                <p>The <b>Molotov</b> is a new grenade to the <i>Counter-Strike</i> series featured in <i>Counter-Strike: Global Offensive</i>. When it makes contact, this rather expensive item covers a large area with a rapidly-spreading fire. Enemies attempting to pass through will be slowed and take significant burn damage. This grenade is extremely effective at stopping early rushes, but can be countered by a Smoke Grenade, which will dissipate the flames.</p>
+                                            </div>
+                                    
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                                            </div>
+                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="card" style="width: 290px">
+                                <img class="card-img-top" src="images/grenade_smoke.png" alt="smoke grenade">
+                                <div class="card-body">
+                                    <h5 class="card-title">Smoke Grenade</h5>
+
+                                    <p class="card-text">
+                                        <b>Price: </b>$300<br>
+                                        <b>Firing Mode: </b>Thrown<br>
+                                        <b>Used by: </b>Terrorist / Counter-Terrorist<br>
+                                        <b>Kill Reward: </b>$300 (Competitive)
+                                    </p>
+
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#smoke">More Info</button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="smoke">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                    
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Smoke Grenade</h4>
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+                                    
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <h5>Official Description</h5><br>
+                                                
+                                                <p>The smoke grenade creates a medium-area smoke screen. It can effectively hide your team from snipers, or even just create a useful distraction.</i></p><br>
+
+                                                <h5>Additional Information</h5><br>
+
+                                                <p>The <b>Smoke Grenade</b> is an incredibly useful grenade that blankets an area with a thick cloud of smoke for 15 seconds. Note that the full effect lasts 18 seconds. Unlike previous versions of CS, smokes in <i>Counter-Strike: Global Offensive</i> are almost impossible to see through and give a heavy positional advantage to players outside of the smoke. Be very wary of walking through the smoke as enemy players will see you long before you see them.</p>
+                                            </div>
+                                    
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                                            </div>
+                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="gear">
+                    <h3>Gears</h3>
+
+                    <!-- Gear Row 1 -->
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="card" style="width: 290px">
+                                <img class="card-img-top" src="images/gear_kevlar.png" alt="kevlar">
+                                <div class="card-body">
+                                    <h5 class="card-title">Kevlar Vest</h5>
+
+                                    <p class="card-text">
+                                        <b>Price: </b>$650<br>
+                                        <b>Used by: </b>Terrorist / Counter-Terrorist<br>
+                                    </p>
+
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#kevlar">More Info</button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="kevlar">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                    
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Kevlar Vest</h4>
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+                                    
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <h5>Overview</h5><br>
+                                                
+                                                <p>The <b>Kevlar Vest</b> is an essential piece of equipment that should be bought at every opportunity. Not only does Kevlar protect against bullet-punch, or the slowdown that occurs when you are hit, it absorbs a significant percentage of damage caused by explosions and low velocity projectiles and can easily be the difference between life and death in a firefight. There are some weapons, like the AWP, that can kill in one hit despite having a vest. Kevlar by itself does not protect against headshots.</p>
+                                            </div>
+                                    
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                                            </div>
+                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-4">
+                            <div class="card" style="width: 290px">
+                                <img class="card-img-top" src="images/gear_kevlar_helmet.png" alt="kevlar and helmet">
+                                <div class="card-body">
+                                    <h5 class="card-title">Kevlar + Helmet</h5>
+
+                                    <p class="card-text">
+                                        <b>Price: </b>$1000<br>
+                                        <b>Used by: </b>Terrorist / Counter-Terrorist<br>
+                                    </p>
+
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#kevlar_helmet">More Info</button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="kevlar_helmet">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                    
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Kevlar + Helmet</h4>
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+                                    
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <h5>Overview</h5><br>
+                                                
+                                                <p>The <b>Kevlar + Helmet</b> is a combination purchase that is vest which includes a tactical helmet. The helmet allows you to survive headshots with most weapons by absorbing some of the damage. Some weapons, such as an AK-47, AWP, SCAR-20 and SSG 08 will kill with a headshot from any range regardless of head amor. If a player buys only kevlar and survives the round with no armor damage, they can upgrade to kevlar + helmet for only $350 the following round. If their armor does take damage, kevlar + helmet costs the full $1000.</p>
+                                            </div>
+                                    
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                                            </div>
+                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="card" style="width: 290px">
+                                <img class="card-img-top" src="images/gear_kit.png" alt="defuse kit">
+                                <div class="card-body">
+                                    <h5 class="card-title">Defuse Kit</h5>
+
+                                    <p class="card-text">
+                                        <b>Price: </b>$400<br>
+                                        <b>Used by: </b>Counter-Terrorist<br>
+                                    </p>
+
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#defuse_kit">More Info</button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="defuse_kit">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                    
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Defuse Kit</h4>
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+                                    
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <h5>Overview</h5><br>
+                                                
+                                                <p>The <b>Defuse Kit</b> is a relatively cheap, CT-only piece of equipment that allows for the quick disposal of a Terrorist's Bomb. It cuts the default defuse time of 10 seconds by half. Many rounds have been won by capable CTs pulling off ninja defuses without the enemy team knowing or being able to react.</p>
+                                            </div>
+                                    
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                                            </div>
+                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="other-equip">
+                    <!-- Other Equipment Start -->
+                    <h3>Other Equipment</h3>
+
+                    <!-- Other Equipment Row 1 -->
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="card" style="width: 290px">
+                                <img class="card-img-top" src="images/gear_zeus.png" alt="zeus x27">
+                                <div class="card-body">
+                                    <h5 class="card-title">Zeus x27</h5>
+
+                                    <p class="card-text">
+                                        <b>Price: </b>$200<br>
+                                        <b>Firing Mode: </b>Single Use<br>
+                                        <b>Used by: </b>Terrorist / Counter-Terrorist<br>
+                                    </p>
+
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#zeus">More Info</button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="zeus">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                    
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Zeus x27</h4>
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+                                    
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <h5>Official Description</h5><br>
+                                                
+                                                <p>Perfect for close-range ambushes and enclosed area encounters, the single-shot x27 Zeus is capable of incapacitating an enemy in a single hit.</p><br>
+
+                                                <h5>Additional Information</h5><br>
+
+                                                <p>The <b>Zeus x27</b> is a piece of equipment introduced and featured in Counter-Strike: Global Offensive. It is a close range, one shot kill pistol that delivers a lethal dose of electricity to its target.</p>
+                                            </div>
+                                    
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                                            </div>
+                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-4">
+                            <div class="card" style="width: 290px">
+                                <img class="card-img-top c4" src="images/gear_c4.png" alt="c4 explosive">
+                                <div class="card-body">
+                                    <h5 class="card-title">C4 Explosive</h5>
+
+                                    <p class="card-text">
+                                        <b>Price: </b>N/A<br>
+                                        <b>Firing Mode: </b>Single Use<br>
+                                        <b>Used by: </b>Terrorist<br>
+                                    </p>
+
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#c4">More Info</button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="c4">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                    
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">C4 Explosive</h4>
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+                                    
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <h5>Official Description</h5><br>
+                                                
+                                                <p>Stable and resistant to most physical shocks, this improvised plastic explosive has a detonation velocity of over 8,000 meters per second when ignited.</p><br>
+
+                                                <h5>Additional Information</h5><br>
+
+                                                <p>The <b>C4 Explosive</b>, commonly called simply the C4, is an objective equipment used in bomb defusal scenarios, exclusive to the Terrorists. It is seen in throughout the <i>Counter-Strike</i> series.</p>
+                                            </div>
+                                    
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                                            </div>
+                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div><!-- Main Content End -->
+
+        </div><!-- Container End -->
+
+        <!-- Footer Start -->
+        <div class="container py-1" id="footer">
+            <div class="row">
+                <div class="col-3">
+                    <a href="https://www.facebook.com/CounterStrike" target="_blank">
+                        <img src="images/icon_fb.png" alt="facebook icon" width="50px" height="50px">
+                    </a>
+                </div>
+                <div class="col-3">
+                    <a href="https://www.instagram.com/csgo_dev/" target="_blank">
+                        <img src="images/icon_instagram.png" alt="instagram icon" width="50px" height="50px">
+                    </a>
+                </div>
+                <div class="col-3">
+                    <a href="http://twitter.com/csgo" target="_blank">
+                        <img src="images/icon_twitter.png" alt="twitter icon" width="50px" height="50px">
+                    </a>
+                </div>
+                <div class="col-3">
+                    <a href="https://www.twitch.tv/directory/game/Counter-Strike%3A%20Global%20Offensive" target="_blank">
+                        <img src="images/icon_twitch.png" alt="twitch icon" width="50px" height="50px">
+                    </a>
+                </div>
+            </div>
+
+            <p>&copy; 2021 Valve Corporation, all rights reserved. Valve, the Valve logo, Source, the Source logo, Steam, the Steam logo, Counter-Strike, and the Counter-Strike logo are trademarks and/or registered trademarks of the Valve Corporation.</p>
+        </div>
+
+        <!-- Scroll Top Button -->
+        <button onclick="topFunction()" class="btn btn-primary" id="scrollTop">Scroll Top</button>
+
+        <!-- Scroll Top JavaScript -->
+        <script src="scripts/myscript.js"></script>
+    </body>
+</html>
